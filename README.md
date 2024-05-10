@@ -20,7 +20,6 @@ Here's how you can use the functions provided by the Country Coordinates Library
 Retrieve the geographic coordinates (latitude and longitude) for a given country using its ISO country code:
 
 ```python
-Copy code
 from country_coords import get_coordinates
 
 coords = get_coordinates('US')
@@ -31,7 +30,6 @@ print(f"Coordinates of the United States: {coords}")
 Look up the ISO country code for a given country by name:
 
 ```python
-Copy code
 from country_coords import get_country_code
 
 country_code = get_country_code("United States of America")
@@ -42,7 +40,6 @@ print(f"ISO country code for the United States of America: {country_code}")
 Get the official name of a country from its ISO country code:
 
 ```python
-Copy code
 from country_coords import get_country_name
 
 country_name = get_country_name('US')
