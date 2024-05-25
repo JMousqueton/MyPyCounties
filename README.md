@@ -46,6 +46,16 @@ country_name = get_country_name('US')
 print(f"Country name for 'US': {country_name}")
 ````
 
+### Getting Region Name
+Get the region name of a country from its ISO country code:
+
+```python
+from mypycountries import get_region_name
+
+region_name = get_region_name('FR')
+print(f"Country name for 'FR': {region_name}")
+````
+
 ## Contributions
 
 Contributions to the Country Coordinates Library are welcome! If you would like to improve the module or add new features, please fork the repository, make your changes, and submit a pull request.
